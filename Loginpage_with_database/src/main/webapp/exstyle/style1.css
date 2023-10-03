@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background-image:url(file:///C:/Users/Lenovo/eclipse/Loginpage_with_database/src/main/webapp/images/109.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Login-box
+{
+	width:300px;
+	position:absolute;
+	top:30%;
+	left:40%;
+	transform:translate(-50% ,-50%);
+	color:white;
+	border: 3px  #4caf50;
+}
+.Login-box h1
+{
+	float:left;
+	font-size:40px;
+	font-family:sans-serif;
+	background:green;
+	border-bottom: 6px solid #4caf50;
+	margin-bottom:50px;
+	padding: 10px 0;
+}
+.textbox
+{
+	width: 100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom: 2px solid #4caf50;
+
+}
+.textbox i
+{
+	width:26px;
+	float:left;
+	text-align: center;
+}
+.textbox input
+{
+   border:none;
+   outline:none;
+   background:none;
+   color:black;
+   font-size:23px;
+   
+   width:80%;
+   float:left;
+   margin:0 10px;	
+}
+.btn
+{
+	width:300px;
+	background:none;
+	border:10px solid #4caf50;
+	color:white;
+    padding:5px;
+    font-size:20px;
+    cursor:pointer;
+    margin:30px 0;	
+}
+.btn1
+{
+	width:300px;
+	background:green;
+	border:10px solid #4caf50;
+	color:white;
+    padding:5px;
+    font-size:20px;
+    cursor:pointer;
+    margin:30px 0;	
+}
